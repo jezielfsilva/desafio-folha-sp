@@ -287,3 +287,14 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+.title4 {
+    color: red;
+}
+
+.box-photo {
+    width: 34vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+}
