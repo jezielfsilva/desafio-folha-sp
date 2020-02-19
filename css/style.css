@@ -337,6 +337,10 @@
     width: 100%;
 }
 
+.box-advertising {
+    display: none;
+}
+
 .container-end {
     width: 100%;
     height: 20vh;
@@ -378,4 +382,170 @@
 .text-end {
     color: white;
     width: 60vw;
+}
+
+@media (max-width: 425px) {
+    .container-navigation {
+        height: 16.6vh;
+    }
+
+    .box-logo {
+        width: 79%;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .box-buttons {
+        display: none;
+    }
+
+    .click3, .click4 {
+        display: none;
+    }
+
+    .slider {
+        height: 52vh;
+    }
+
+    .slide-one, .slide-two, .slide-tree {
+        height: 39vh;
+        background-size: 150%;
+        background-position: center;
+    }
+
+    .text-two, .text-five, .text-eight {
+        font-size: 1.1rem;
+        width: 55vw;
+        margin-left: unset;
+        margin-bottom: 1rem;
+    }
+
+    .text-tree, .text-six, .text-nine, .text-four, .text-seven, .text-ten {
+        display: none;
+    }
+
+    .container-news {
+        height: 130vh;
+    }
+
+    .box-itens {
+        height: 125vh;
+    }
+
+    .main-title {
+        display: none;
+    }
+
+    .box-images {
+        height: 123vh;
+        flex-direction: column;
+    }
+
+    .photo-one, .photo-two, .photo-tree {
+        width: 90vw;
+        height: 39vh;
+        background-size: 100%;
+    }
+
+    .photo-text, .photo-text2, .photo-text3 {
+        width: 23vw;
+    }
+
+    .container-news2 {
+        height: 228vh;
+    }
+
+    .box-itens2 {
+        width: 90vw;
+        height: 228vh;
+        flex-wrap: unset;
+        flex-direction: column;
+    }
+
+    .title {
+        width: 90vw;
+        height: 5vh;
+        font-size: 1.4rem;
+    }
+
+    .photo-four, .photo-five, .photo-six, .photo-seven {
+        width: 90vw;
+        height: 54vh;
+    }
+
+    .image-four, .image-five, .image-six, .image-seven {
+        width: 100%;
+    }
+
+    .advertising {
+        display: none;
+    }
+
+    .container-news3 {
+        height: 240vh;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-texts {
+        width: 90vw;
+    }
+
+    .title3 {
+        font-size: 22.3px;
+    }
+
+    .text-twelve {
+        width: 90vw;
+        font-size: 0.9rem;
+    }
+
+    .box-texts2, .box-texts3 {
+        width: 99vw;
+    }
+
+    .title4, .title5 {
+        font-size: 22px;
+    }
+
+    .box-advertising {
+        width: 80%;
+        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .advertising2 {
+        width: 70%;
+    }
+
+    .container-end {
+        height: 26vh;
+        justify-content: unset;
+    }
+
+    .return {
+        width: 42%;
+    }
+
+    .text-return {
+        width: 33vw;
+    }
+
+    .box-texts-end {
+        width: 90%;
+        height: 15vh;
+    }
+
+    .logo-end {
+        display: none;
+    }
+
+    .text-end {
+        width: 75vw;
+        font-size: 0.8rem;
+    }
 }
