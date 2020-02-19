@@ -77,7 +77,7 @@
 }
 
 .slider {
-    width: 100vw;
+    width: 100%;
     height: 90vh;
     display: flex;
     align-items: center;
@@ -121,7 +121,7 @@
     height: 70vh;
     background-image: url('../assets/screens/divoltis_porris-02.png');
     background-size: cover;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
@@ -132,23 +132,36 @@
     height: 70vh;
     background-image: url('../assets/screens/divoltis_porris-01.png');
     background-size: cover;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-end;
 }
 
-.click3, .click4 {
-    width: 12vw;
-    height: 8vh;
+.click3 {
+    width: 5vw;
+    height: 10vh;
     border-radius: 50%;
     border-style: none;
     background-color: white;
     box-shadow: 1px 3px 4px #00000080;
+    position: relative;
+    left: 1.8rem;
+}
+
+.click4 {
+    width: 5vw;
+    height: 10vh;
+    border-radius: 50%;
+    border-style: none;
+    background-color: white;
+    box-shadow: 1px 3px 4px #00000080;
+    position: relative;
+    right: 1.8rem;
 }
 
 .container-news {
-    width: 100vw;
+    width: 100%;
     height: 48vh;
     display: flex;
     flex-direction: column;
@@ -156,7 +169,7 @@
 }
 
 .container-news2 {
-    width: 100vw;
+    width: 100%;
     height: 106vh;
     display: flex;
     justify-content: center;
@@ -252,7 +265,7 @@
 }
 
 .container-news3 {
-    width: 100vw;
+    width: 100%;
     height: 106vh;
     display: flex;
     justify-content: center;
@@ -320,6 +333,49 @@
     width: 100%;
 }
 
-.text-fourteen, .text-sixteen, .text-eighteen, .text-fourt {
+.text-fourteen, .text-sixteen, .text-eighteen, .text-twenty {
     width: 100%;
+}
+
+.container-end {
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(54, 58, 83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-return {
+    width: 100%;
+    height: 7vh;
+    background-color: rgb(96, 154, 231);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.return {
+    width: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.text-return {
+    color: white;
+    width: 11vw;
+}
+
+.box-texts-end {
+    width: 80%;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-end {
+    color: white;
+    width: 60vw;
 }
