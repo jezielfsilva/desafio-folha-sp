@@ -8,19 +8,19 @@
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: rgb(96, 154, 231);
 }
 
 .box-navigation {
-    width: 88%;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .box-logo {
-    width: 40%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -384,13 +384,97 @@
     width: 60vw;
 }
 
+@media (max-width: 768px) {
+    .text {
+        display: none;
+    }
+
+    .face-logo, .twitter-logo {
+        margin-right: unset;
+    }
+
+    .click3 {
+        left: 1.2rem;
+    }
+
+    .click4 {
+        right: 1.2rem;
+    }
+
+    .text-two, .text-five, .text-eight {
+        width: 31vw;
+    }
+
+    .text-tree, .text-six, .text-nine, .text-four, .text-seven, .text-ten {
+        font-size: 2rem;
+    }
+
+    .photo-text, .photo-text2, .photo-text3 {
+        width: 12vw;
+    }
+
+    .box-itens2 {
+        width: 90vw;
+    }
+
+    .title {
+        width: 90vw;
+    }
+
+    .photo-four, .photo-five, .photo-six, .photo-seven {
+        width: 31vw;
+    }
+
+    .image-eight, .image-nine, .image-ten, .image-eleven {
+        height: 80%;
+    }
+
+    .advertising {
+        display: none;
+    }
+
+    .box-texts {
+        width: 23vw;
+    }
+
+    .box-texts2, .box-texts3 {
+        width: 35vw;
+    }
+
+    .return {
+        width: 25%;
+    }
+
+    .text-return {
+        width: 18vw;
+    }
+
+    .text-end {
+        width: 49vw;
+        font-size: 0.9rem;
+    }
+}
+
 @media (max-width: 425px) {
     .container-navigation {
         height: 16.6vh;
     }
 
+    .hamburguer-icon {
+        width: 12%;
+    }
+
+    .box-navigation {
+        height: 99%;
+        align-items: flex-end;
+    }
+
     .box-logo {
-        width: 79%;
+        width: 90%;
+    }
+
+    .image-logo {
+        width: 90%;
     }
 
     .text {
@@ -416,7 +500,7 @@
     }
 
     .text-two, .text-five, .text-eight {
-        font-size: 1.1rem;
+        font-size: 0.9rem;
         width: 55vw;
         margin-left: unset;
         margin-bottom: 1rem;
@@ -427,11 +511,11 @@
     }
 
     .container-news {
-        height: 130vh;
+        height: 106vh;
     }
 
     .box-itens {
-        height: 125vh;
+        height: 100vh;
     }
 
     .main-title {
@@ -439,18 +523,18 @@
     }
 
     .box-images {
-        height: 123vh;
+        height: 96vh;
         flex-direction: column;
     }
 
     .photo-one, .photo-two, .photo-tree {
         width: 90vw;
-        height: 39vh;
+        height: 29vh;
         background-size: 100%;
     }
 
     .photo-text, .photo-text2, .photo-text3 {
-        width: 23vw;
+        width: 30vw;
     }
 
     .container-news2 {
@@ -529,15 +613,17 @@
 
     .return {
         width: 42%;
+        justify-content: center;
     }
 
     .text-return {
-        width: 33vw;
+        width: 30vw;
+        font-size: 0.7rem;
     }
 
     .box-texts-end {
-        width: 90%;
-        height: 15vh;
+        width: 95%;
+        height: 18vh;
     }
 
     .logo-end {
@@ -545,7 +631,8 @@
     }
 
     .text-end {
-        width: 75vw;
-        font-size: 0.8rem;
+        width: 94vw;
+        height: 12vh;
+        font-size: 0.75rem;
     }
 }
