@@ -22,23 +22,29 @@
         </header>
         <main>
             <section class="slider">
-                <button class="click3"><img src="./assets/screens/arrow_left-icon.png"></button>
-                <div class="slide-one">
-                    <p class="text-two">MUSSUM IPSUM CACILDS</p>
-                    <p class="text-tree">Pra lá, depois divoltis porris, paradis.</p>
-                    <p class="text-four">Paisis, filhis, espiritis santis</p>
-                </div>
-                <div class="slide-two">
-                    <p class="text-five">AENEAN</p>
-                    <p class="text-six">Pallentesque laoreet mé vel lectus</p>
-                    <p class="text-seven">scelerisque interdum cursus</p>
-                </div>
-                <div class="slide-tree">
-                    <p class="text-eight">CONSETIS</p>
-                    <p class="text-nine">Manduma pindureta quium dia nois paga.</p>
-                    <p class="text-ten">Sapiem in monti palavris</p>
-                </div>
-                <button class="click4"><img src="./assets/screens/arrow_right-icon.png"></button>
+                <button class="click3" onclick="plusDivs(-1)"><img src="./assets/screens/arrow_left-icon.png"></button>
+                <span class="Slide">
+                    <div class="slide-one" onclick="plusDivs(-1)">
+                        <p class="text-two">MUSSUM IPSUM CACILDS</p>
+                        <p class="text-tree">Pra lá, depois divoltis porris, paradis.</p>
+                        <p class="text-four">Paisis, filhis, espiritis santis</p>
+                    </div>
+                </span>
+                <span class="Slide">
+                    <div class="slide-two" onclick="plusDivs(-1)">
+                        <p class="text-five">AENEAN</p>
+                        <p class="text-six">Pallentesque laoreet mé vel lectus</p>
+                        <p class="text-seven">scelerisque interdum cursus</p>
+                    </div>
+                </span>
+                <span class="Slide">
+                    <div class="slide-tree" onclick="plusDivs(-1)">
+                        <p class="text-eight">CONSETIS</p>
+                        <p class="text-nine">Manduma pindureta quium dia nois paga.</p>
+                        <p class="text-ten">Sapiem in monti palavris</p>
+                    </div>
+                </span>
+                <button class="click4" onclick="plusDivs(+1)"><img src="./assets/screens/arrow_right-icon.png"></button>
             </section>
             <section class="container-news">
                 <div class="box-itens">
@@ -151,5 +157,6 @@
                 <p class="text-end">Copyright Folha de S.Paulo. Todos os direitos reservados. É proibida a reprodução do conteúdo desta página em qualquer meio de comunicação,eletrônico ou impresso,sem autorização escrita da Folhapress(pesquisa@folhapress.com.br).</p>
             </div>
         </footer>
+        <script src="./assets/js/main.js"></script>
     </body>
 </html>
